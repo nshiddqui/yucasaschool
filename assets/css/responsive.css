@@ -1,0 +1,282 @@
+@media (min-width:1920px)and (max-width:2158px) {
+    .page-container .main-content {
+        float: right;
+        width: 96%!important;
+    }
+    .bottom-block {
+        display: flex;
+        width: 63%;
+        margin-left: 3.5%;
+    }
+    .page-container .sidebar-menu {
+        position: fixed;
+        width: 24%;
+    }
+    .bottom-block {
+        display: flex;
+        width: 73.6%;
+        margin-left: 0;
+    }
+    .style-light footer.main {
+        width: 73.6%;
+    }
+    .search-wrapper {
+        height: 3vh;
+    }
+    .page-container .sidebar-menu #main-menu {
+        margin-bottom: 0px;
+    }
+    .main-menu-wrapper {
+        height: 90vh;
+    }
+	.indicator-item {
+       width: 290px!important;
+       height: 100px!important;
+   }
+   body .widget-indicators{padding:0px;}
+   .btn-xs {
+	   width: 90px;
+   }
+   .style-light #hostel_info_chart {
+    height:75vh;
+   }
+   .widget-indicators .indicator-item-value span {
+    font-size:2.5vw;
+   }
+   body .widget-indicators .indicator-value-title {
+    font-size:0.8vw;
+   }
+   .logo-env {
+    height: 5.5vh;
+   }
+}/*---------------*/
+
+@media (min-width:1600px) and (max-width:1919px){
+    body {
+        width: 100%!important;
+        overflow-x: hidden!important;
+    }
+    .indicator-item {
+        width: 275px!important;
+        height:75px!important;
+    }
+    .certificate {
+        min-height: 630px!important;
+    }
+    .top_header_bar {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .page-container .main-content {
+        float: right;
+        width: 95%;
+    }
+    .widget-indicators .indicator-item-value span {
+        font-size: 40px;
+    }
+    .logo-env {
+        height: 5.5vh;
+    }
+	.style-light #hostel_info_chart {
+    height: 80vh;
+   }
+   .page-container .sidebar-menu {
+    position: fixed;
+    width: 24%;
+   }
+   body.style-light .page-container .sidebar-menu #main-menu li a {
+    font-size:1vw;
+   }
+   body .breadcrumb {
+    padding: 5px 0px;
+   }
+   .bottom-block {
+    width: 72.8%;
+   }
+   .style-light footer.main {
+    width: 72.8%;
+   }
+   .logo-env {
+    height: 5.5vh;
+   }
+}/*------------------*/
+/*--- Responsive code 1440x1600  -----*/
+@media (min-width:1440px) and (max-width:1599px){
+	body .breadcrumb {
+    padding: 5px 0px;
+   }
+   .style-light footer.main {
+    width: 76.8%;
+   }
+}/*------------------*/
+
+/*--- Responsive code 1439x1367  -----*/
+@media (min-width:1367px) and (max-width:1439) {
+	.page-body{font-size: 1vw;}
+    .tile-stats {
+        padding: 22px 20px!important;
+    }
+	.style-light #hostel_info_chart {
+    height:60vh;
+    }
+	.style-light .ajax-sub-nav a.url-link {
+    font-size: 1vw;
+    }
+	.logo a img {
+     max-height:40px !important;
+	}
+	.style-light .page-container .sidebar-menu .logo-env > div.sidebar-collapse {
+    margin-top: 4px;
+    }
+	body .breadcrumb {
+    padding: 5px 0px;
+   }
+}/*------------------*/
+
+
+/*--- Responsive code 1366x1280  -----*/
+
+@media (min-width:1281px) and (max-width:1366px) {
+    .tile-stats {
+        padding: 22px 20px!important;
+    }
+	.style-light #hostel_info_chart {
+    height:75vh;
+    }
+	.style-light footer.main{
+		width:76.8%;
+	}
+	body .breadcrumb {
+    padding: 5px 0px;
+   }
+	
+}/*------------------*/
+
+
+/*--- Responsive code 1280x1024  -----*/
+
+@media (min-width:1025px) and (max-width:1280px) {
+    body .widget-indicators .indicator-item {
+        padding: 0 9px;
+    }
+    .logo-env {
+        height: 5vh;
+    }
+	.logo a img {
+     max-height: 35px !important;
+	}
+	.style-light .page-container .sidebar-menu .logo-env > div.sidebar-collapse {
+    margin-top: 4px;
+    }
+	.page-container .sidebar-menu .logo-env > div.sidebar-collapse a,
+    .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu a {
+	font-size:18px;
+    }
+	.style-light #hostel_info_chart {
+    height: 70vh;
+   }
+   .payroll_tab #accounting ul li{padding-left:7px!important;padding-right:7px!important;}
+   body .breadcrumb {
+    padding: 5px 0px;
+   }
+   .style-light .page-container .sidebar-menu .logo-env {
+    padding: 8px 8px 3px 0px;
+   }
+   .style-light footer.main {
+    width: 76.8%;
+   }
+}/*------------------*/
+
+
+/*--- Responsive code 1024x768  -----*/
+
+@media (min-width:769px) and (max-width:1024px) {
+.style-light #hostel_info_chart {
+    height: 90vh;
+}
+.style-light .main-content ul.nav.nav-tabs > li > a {
+    padding: 7px;
+}
+body .breadcrumb {
+    padding: 5px 0px;
+}
+body .widget-indicators {
+    padding: 8px 0;
+}
+body .widget-indicators .indicator-value-title {
+    font-size: 11px;
+}
+body .widget-indicators .indicator-item {
+    padding: 0 10px;
+}
+.style-light footer.main {
+    width: 76.8%;
+}
+}/*------------------*/
+
+
+/*--- Responsive code 768x320  -----*/
+
+@media (min-width:320px) and (max-width:768px) {}
+
+
+/*------------------*/
+
+
+/*--- Responsive code 768-----*/
+
+@media (width:768px) {
+    .sidebar-menu {
+        width: 180px!important;
+    }
+    .main-content {
+        margin-left: 115px;
+    }
+    .style-light footer.main {
+        left: 180px;
+    }
+    .widget-indicators .indicator-item-value span {
+        font-size: 18px;
+    }
+    body .widget-indicators .indicator-item {
+        padding: 0 5px;
+    }
+    body .widget-indicators .indicator-item-value {
+        padding: 0 8px;
+    }
+    .logo-env {
+        height: 5vh;
+    }
+    .search-wrapper {
+        height: 3vh;
+    }
+    .page-container.sidebar-collapsed .sidebar-menu #main-menu > li > a > span {
+        top: 0!important;
+        left: 0!important;
+        padding: 0px 10px!important;
+        width: 100%!important;
+        visibility: visible!important;
+        opacity: 1!important;
+    }
+    .page-container .sidebar-menu #main-menu li {
+        padding: 0 0%;
+    }
+    .page-header-content.container-fluid {
+        margin: 4px -2%;
+        margin-bottom: 0px;
+    }
+    ul.list-inline.links-list.pull-right {
+        width: 63%;
+        float: right!important;
+    }
+    .top_header_bar .col-sm-4 {
+        width: 68%;
+    }
+    body .widget-indicators .indicator-value-title {
+        font-size: 9px;
+    }
+    .logo a img {
+        max-height: 45px !important;
+        margin-left: 0px;
+    }
+}/*------------------*/

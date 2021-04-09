@@ -1,0 +1,240 @@
+.page-container .sidebar-menu {
+  position: fixed;
+  width: 20%;
+}
+
+.page-container{
+  padding-left: 20%;
+}
+
+.logo-env{
+  height: 8vh;
+}
+
+.search-wrapper {
+  height: 5vh;
+}
+
+.main-menu-wrapper {
+  height: 87vh;
+}
+
+.style-light .page-container .sidebar-menu li#search {
+  height: 30px;
+  border: none;
+  padding: 0px!important;
+  position: relative;
+  z-index: 99999999;
+  list-style: none;
+}
+
+.page-container .sidebar-menu li#search button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  color: #aaabae;
+  padding: 15px 20px;
+  padding-top: 10px;
+}
+
+.page-container .sidebar-menu  li#search .search-input {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  padding-right: 45px;
+  width: 100%;
+  color: #aaabae;
+  -moz-transition: 350ms opacity ease-in-out;
+  -o-transition: 350ms opacity ease-in-out;
+  -webkit-transition: 350ms opacity ease-in-out;
+  transition: 350ms opacity ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #2C2E3E;
+}
+
+.page-container .sidebar-menu  li#search button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  color: #aaabae;
+  padding: 10px 20px;
+  padding-top: 8px;
+}
+
+#main-menu {
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 35px;
+}
+
+.page-container .sidebar-menu #main-menu li:last-child{
+  margin-bottom: 20px;
+}
+
+#main-menu ::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#main-menu ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#main-menu ::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+body .page-container  .main-content{
+  padding:0 2%;
+}
+
+.page-header-content.container-fluid{
+  margin: 0 -2%;
+}
+
+body .widget-indicators{
+  margin-left: 0px;
+}
+
+
+body .widget-indicators{
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body .page-container .sidebar-menu #main-menu li a{
+  padding: 10px 0px;
+}
+
+.style-light .indicator-item{
+  margin-bottom: 0%;
+  margin-right: 0;
+}
+
+
+body .widget-indicators{
+  margin-bottom: 15px;
+}
+
+body.style-light .indicator-item{
+  color: #333;
+}
+
+.style-light .indicator-item-icon{
+  display: inline;
+}
+
+body .widget-indicators .indicator-item{
+  padding: 0 15px;
+  border-bottom: 0px;
+}
+
+.indicator-item-value{
+  flex: 1;
+}
+
+ .widget-indicators .indicator-item-value span{
+  font-size:54px;
+  color: #678097;
+}
+
+body .widget-indicators .indicator-value-title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #678097;
+}
+
+body .widget-indicators  .indicator-item-value{
+  padding:0 15px;
+}
+
+body .widget-indicators .indicator-item:not(:last-child){
+  border-right: 1px solid #67809733;
+}
+
+body .widget-indicators{
+  margin-bottom: 15px;
+  padding: 15px 0;
+  background: #fff;
+}
+
+.style-light .panel-title > a, .panel-title > small, .panel-title > .small, .style-light .panel-title > small > a, .panel-title > .small > a{
+  background: #678097;
+  font-weight: 900;
+}
+
+.style-light #hostel_info_chart{
+  height: auto;
+}
+
+.bottom-block {
+    display: flex;
+}
+
+.bottom-block {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+
+.bi-yellow{
+  background: rgb(252,190,71);
+  background: linear-gradient(94deg, rgba(252,190,71,1) 2%, rgba(250,194,85,1) 47%, rgba(255,209,122,1) 100%);
+}
+.bi-blue{
+   background: rgb(1,174,180);
+   background: linear-gradient(94deg, rgba(1,174,180,1) 2%, rgba(15,189,196,1) 47%, rgba(30,209,214,1) 100%); 
+}
+.bi-pink{
+   background: rgb(240,96,139);
+   background: linear-gradient(94deg, rgba(240,96,139,1) 2%, rgba(245,111,144,1) 47%, rgba(251,133,157,1) 100%); 
+}
+.bi-navblue{
+   background: rgb(49,62,106);
+   background: linear-gradient(94deg, rgba(49,62,106,1) 2%, rgba(57,72,115,1) 47%, rgba(68,85,129,1) 100%); 
+}
+
+.bottom-item {
+    width: 24%;
+    color: #fff;
+    padding: 20px 35px;
+    /*margin: 0 5px;*/
+
+}
+
+.bottom-value-title {
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+}
+
+.bottom-value-counter{
+  font-size: 34px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+

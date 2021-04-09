@@ -1,0 +1,16 @@
+
+[17-Apr-2019 05:57:18 UTC] curl_exec threw error "" for 
+[17-Apr-2019 05:57:51 UTC] curl_exec threw error "" for 
+[17-Apr-2019 05:59:21 UTC] curl_exec threw error "" for 
+[17-Apr-2019 06:35:05 UTC] curl_exec threw error "" for 
+[17-Apr-2019 11:45:21 UTC] curl_exec threw error "" for 
+[17-Apr-2019 11:45:24 UTC] curl_exec threw error "" for 
+[17-Apr-2019 11:45:28 UTC] curl_exec threw error "" for 
+[17-Apr-2019 11:45:31 UTC] curl_exec threw error "" for 
+[17-Apr-2019 11:45:34 UTC] curl_exec threw error "" for 
+[18-Apr-2019 05:14:22 UTC] curl_exec threw error "" for 
+[29-Feb-2020 06:33:52 UTC] curl_exec threw error "Failed to connect to digitalflares.com port 2082: Connection refused" for https://digitalflares.com:2082/json-api/cpanel?cpanel_jsonapi_func=addsubdomain&cpanel_jsonapi_module=SubDomain&cpanel_jsonapi_version=2&domain=nazim&rootdomain=digitalflares.com&dir=/public_html/nazim
+[29-Feb-2020 06:42:44 UTC] curl_exec threw error "OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to ijyaweb.com:2082 " for https://ijyaweb.com:2082/json-api/cpanel?cpanel_jsonapi_func=addsubdomain&cpanel_jsonapi_module=SubDomain&cpanel_jsonapi_version=2&domain=nazim&rootdomain=ijyaweb.com&dir=/public_html/nazim
+[29-Feb-2020 06:42:44 UTC] Some error message here
+[29-Feb-2020 06:42:44 UTC] Some error message here
+[29-Feb-2020 06:42:45 UTC] Some error message here

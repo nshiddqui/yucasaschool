@@ -1,0 +1,35 @@
+.btn-ml-10{margin-left:10px;}
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.certificates h2 {
+    font-size: 30px;
+    color: brown;
+    font-weight: 800;
+    font-style: italic;
+}
+#demos .owl-carousel {
+    margin: 2rem 0
+}
+
+#demos .owl-carousel .item {
+    height: 28rem;
+    
+}
+
+#demos .owl-carousel .item h4 {
+    color: #FFF;
+    font-weight: 400;
+    margin-top: 0rem
+}
+
+#demos .owl-carousel .item-video {
+    height: 300px
+}
+
+#demos #setup {
+    margin-top: 4rem
+}
+
+#demos .demo-list h5 {
+    margin: 0
+}

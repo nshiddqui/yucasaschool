@@ -1,0 +1,607 @@
+body,p,span{
+    font-size:0.8vw;
+}
+input,select,option{font-size:0.8vw;}
+.page-container .sidebar-menu {
+    position: fixed;
+    width: 20%;
+}
+
+.page-container {
+    padding-left: 20%;
+}
+
+.logo-env {
+    height: 6vh;
+}
+table tr td a.btn.btn-primary.btn-sm {
+    padding: 10px 10px;
+}
+
+table tr td  a.btn.btn-primary {padding: 10px 10px;}
+.search-wrapper {
+    height: 5vh;
+}
+
+.main-menu-wrapper {
+    height: 87vh;
+}
+
+.style-light .page-container .sidebar-menu li#search {
+    height: 2vh;
+    border: none;
+    padding: 0px!important;
+    position: relative;
+    z-index: 99999999;
+    list-style: none;
+}
+
+.page-container .sidebar-menu li#search .search-input {
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    padding: 8px 20px;
+    padding-right: 45px;
+    width: 100%;
+    color: #aaabae;
+    -moz-transition: 350ms opacity ease-in-out;
+    -o-transition: 350ms opacity ease-in-out;
+    -webkit-transition: 350ms opacity ease-in-out;
+    transition: 350ms opacity ease-in-out;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #2C2E3E;
+}
+
+.page-container .sidebar-menu li#search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: #aaabae;
+    padding: 10px 20px;
+    padding-top: 8px;
+    font-size: 1vw;
+}
+
+#main-menu {
+    overflow-y: scroll;
+    height: 100%;
+    padding-bottom: 35px;
+}
+
+.page-container .sidebar-menu #main-menu li:last-child {
+    margin-bottom: 20px;
+}
+
+#main-menu::-webkit-scrollbar {
+    width: 1em;
+}
+
+#main-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#main-menu::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+body .page-container .main-content {
+    padding: 0 1%;
+    margin-left: 0%;
+}
+
+.page-header-content.container-fluid {
+    margin: 0 0%;
+}
+
+body .widget-indicators {
+    margin-left: 0px;
+}
+
+body .widget-indicators {
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body .page-container .sidebar-menu #main-menu li a {
+    padding: 10px 0px;
+}
+
+.style-light .indicator-item {
+    margin-bottom: 0%;
+    margin-right: 0;
+}
+
+body .widget-indicators {
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+body.style-light .indicator-item {
+    color: #333;
+}
+
+.style-light .indicator-item-icon {
+    display: inline;
+}
+
+body .widget-indicators .indicator-item {
+    padding: 0 15px;
+    border-bottom: 0px;
+}
+
+.indicator-item-value {
+    flex: 1;
+}
+
+.widget-indicators .indicator-item-value span {
+    font-size: 1.8vw;
+    color: #678097;
+}
+
+body .widget-indicators .indicator-value-title {
+    font-size: 0.7vw;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #678097;
+}
+
+body .widget-indicators .indicator-item-value {
+    padding: 0 15px;
+}
+
+body .widget-indicators .indicator-item:not(:last-child) {
+    border-right: 1px solid #67809733;
+}
+
+body .widget-indicators {
+    margin-bottom: 15px;
+    padding: 15px 0;
+    background: #fff;
+}
+
+.style-light .panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.style-light .panel-title > small > a,
+.panel-title > .small > a {
+    background: #678097;
+    font-weight: 900;
+}
+
+.style-light #hostel_info_chart {
+    height: auto;
+}
+
+.bottom-block {
+    display: flex;
+}
+
+.bottom-block {
+    display: flex;
+    width:78.5%;
+    padding: 0 20px;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: fixed;
+    bottom:40px;
+    z-index: 999;
+    background: #fff;
+    padding-bottom: 12px;
+    border-top: 1px solid #ddd;
+}
+
+.bi-yellow {
+    background: rgb(252, 190, 71);
+    background: linear-gradient(94deg, rgba(252, 190, 71, 1) 2%, rgba(250, 194, 85, 1) 47%, rgba(255, 209, 122, 1) 100%);
+}
+
+.bi-blue {
+    background: rgb(1, 174, 180);
+    background: linear-gradient(94deg, rgba(1, 174, 180, 1) 2%, rgba(15, 189, 196, 1) 47%, rgba(30, 209, 214, 1) 100%);
+}
+
+.bi-pink {
+    background: rgb(240, 96, 139);
+    background: linear-gradient(94deg, rgba(240, 96, 139, 1) 2%, rgba(245, 111, 144, 1) 47%, rgba(251, 133, 157, 1) 100%);
+}
+
+.bi-navblue {
+    background: rgb(49, 62, 106);
+    background: linear-gradient(94deg, rgba(49, 62, 106, 1) 2%, rgba(57, 72, 115, 1) 47%, rgba(68, 85, 129, 1) 100%);
+}
+
+.bottom-item {
+    width: 24%;
+    color: #fff;
+    padding: 20px 30px;
+    /*margin: 0 5px;*/
+}
+
+.bottom-value-title {
+    font-size: 0.8vw;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.bottom-value-counter {
+    font-size: 1vw;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+body li.root-level > a span:nth-child(1) {
+    margin-right: 3%;
+    font-size: 1vw;
+    display: block;
+    float: left;
+    width: 9%;
+}
+
+body .page-container .sidebar-menu #main-menu li ul > li > a {
+    padding-left: 10px;
+}
+
+body .page-container .sidebar-menu #main-menu li a i {
+    margin-right: 5px;
+}
+
+body.style-light .page-container .sidebar-menu #main-menu li a {
+    font-size: 0.8vw;
+    letter-spacing: 0.5px;
+    line-height: 2vh;
+}
+
+body.style-light .list-inline.ajax-sub-nav {
+    margin-bottom: 4px;
+}
+
+body .profile-env .tab-content {
+    background: #fff;
+}
+
+div#hostel-info .panel-group {
+    margin-bottom: 0;
+}
+
+body.style-light .main-content ul.nav.nav-tabs.bordered {
+    background-color: #2f4a65;
+    padding: 0;
+    margin-top: 0px;
+}
+
+body.style-light .btn-default {
+    background-color: #2f4a65 !important;
+    border-color: #2e3e65 !important;
+}
+
+body .calendar-env .calendar-body .fc-content .fc-view table tbody tr td.fc-day .fc-day-number {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    color: #444;
+}
+
+body .calendar-env .calendar-body .fc-content .fc-view table tbody tr td.fc-day {
+    text-align: center;
+}
+
+.page-container .sidebar-menu #main-menu li {
+    border-bottom: 1px solid #3a536d;
+}
+
+.main-content {
+    padding-bottom: 8% !important;
+}
+
+div#student_rfid_info {
+    
+    top: 8%;
+    right: 0%;
+}
+
+div#teacher_rfid_info {
+    position: absolute;
+    top: 8%;
+    right: 0%;
+}
+
+.style-light .page-container .sidebar-menu #main-menu li a:hover,
+.style-light .page-container .sidebar-menu #main-menu li a {
+    background: transparent;
+    padding: 3% 0px;
+}
+
+.style-light .page-container .sidebar-menu #main-menu li.has-sub ul,
+body .page-container .sidebar-menu #main-menu li.has-sub ul a {
+    background-color: transparent !important;
+}
+
+.indicator-item-icon .icon img {
+    width:65%;
+    max-height:80px!important;
+}
+
+.page-container .sidebar-menu #main-menu li.has-sub > a:before {
+    font-size: 1.5vw;
+}
+
+.logo a img {
+    margin-left: 20px;
+    max-height:65px!important;
+    height:65px;
+}
+
+.page-container .sidebar-menu .logo-env > div.sidebar-collapse a,
+.page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu a {
+    font-size: 2vw;
+}
+
+.indicator-item {
+    width: 20%!important;
+}
+
+.top_header_bar {
+    height: 6vh;
+    width: 99%;
+    margin-left: 0px;
+}
+
+.top_header_bar ul.list-inline.links-list.pull-left a img {
+    height:65px;
+    max-height:65px!important;
+}
+
+.ticker-container {
+    height: 4vh;
+    text-align: left;
+}
+
+.style-light footer.main {
+    width: 80%;
+    left: 20%;
+    font-size: 0.8vw;
+    bottom: 0px;
+}
+
+.style-light .panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.style-light .panel-title > small > a,
+.panel-title > .small > a {
+    font-size:0.8vw;
+}
+
+.style-light .breadcrumb li a,
+.style-light .breadcrumb li.active {
+    font-size:0.8vw;
+}
+
+.style-light .breadcrumb a {
+    font-size:0.8vw;
+}
+
+li#session_static h4 a {
+    font-size: 0.8vw;
+}
+
+.dropdown-menu > li > a,
+.language-selector > .dropdown-toggle {
+    font-size:0.8vw;
+}
+
+.ticker-container ul div.not-active {
+    top:35px;
+}
+
+.ticker-container ul div li {
+    font-size:1vw;
+    line-height: 4vh;
+    height: auto!important;
+    width:100%!important;
+}
+
+.top_header_bar ul.list-inline.links-list.pull-right {
+    margin: 11px;
+    width: 44%;
+}
+
+.badge.bell-badge {
+    height: auto;
+    font-size:0.8vw;
+    line-height: 35px;
+    width: 42px;
+}
+
+#hostel_info_chart {
+    height:74vh!important;
+}
+
+.main-content {
+    min-height: 100vh!important;
+}
+
+.number-new {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8vw;
+    line-height: 1.5vw;
+    top: 0px;
+    right: 6px;
+}
+
+.dropdown.notification-drop {
+    right: 1%;
+    top: 15%;
+}
+
+.ajax-navigation li a {
+    font-size:0.8vw;
+}
+
+.style-light .ajax-sub-nav a.url-link {
+    font-size: 0.8vw;
+}
+
+.style-light .main-content ul.nav.nav-tabs > li > a {
+    padding: 12px 15px;
+}
+
+.style-light .list-inline.ajax-sub-nav li {
+    padding: 0px 2%;
+    border-right: 1px solid #000;
+}
+
+.form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+    font-size:0.8vw;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size:0.8vw;
+    height:48px;
+    line-height:48px;
+}
+
+body .form-control {
+    font-size:0.8vw;
+    height: 54px;
+    margin-bottom:8px;
+}
+
+.btn {
+    font-size:0.8vw;
+}
+
+blockquote.blockquote-blue p strong,
+blockquote.blockquote-info p strong,
+blockquote.blockquote-blue small strong,
+blockquote.blockquote-info small strong {
+    font-size:0.8vw;
+}
+
+body blockquote.blockquote-blue p,
+blockquote.blockquote-info p,
+blockquote.blockquote-blue small,
+blockquote.blockquote-info small {
+    font-size:0.8vw;
+}
+
+.addFieldBox h4 {
+    font-size:0.8vw;
+}
+
+body .select2-container--default .select2-selection--single {
+    height:48px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 10px 10px 0 10px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 20px;
+    top: 10px;
+}
+
+.style-light ul.list-btn li a {
+    height:38px;
+}
+
+blockquote {
+    font-size: 1vw;
+}
+.page-body .selectboxit-container .selectboxit .selectboxit-arrow-container:after{
+font-size: 0.7vw;
+}
+.page-body .selectboxit-container .selectboxit .selectboxit-text{
+	font-size:0.8vw;
+	height:48px;
+	line-height:48px;
+}
+body span.selectboxit.form-control.selectboxit.visible.selectboxit-enabled.selectboxit-btn {
+    height: 48px;
+    line-height: 48px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 15px;
+}.btn-xs {
+    width: 160px;
+    height: 45px;
+    padding: 8px 10px!important;
+}
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+  height: 80px;
+}
+.calendar-env .calendar-body .fc-header .fc-button,.fc-header-title h2{
+	font-size:0.8vw;
+}
+.style-light .dataTables_wrapper {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+body blockquote.blockquote-blue, blockquote.blockquote-info{
+  padding: 3% 5% 5% 5%;
+}
+.x_panel {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.top-first-btn{margin-top:2.5vh;}
+.top-first-btn .btn-info{padding:10px 32px;}
+.top-first-btn .btn-primary{padding:10px 32px;margin-top:5px;}
+.selectboxit-container span{
+  height: 45px;
+  line-height: 48px;
+}
+
+.dropdown-menu.notify-drop .drop-content {
+    min-height: 380px;
+    max-height: 380px;
+    overflow-y: scroll;
+	padding:8px 0;
+}
+.dropdown-menu.notify-drop {
+    min-height:425px;
+    max-height:425px;
+}
+.drop-content p{font-size:0.8vw;}
+.style-light .panel-primary > .panel-heading .panel-title {font-size:0.8vw;}
+.dataTables_wrapper .dataTables_length > label{font-size:0.8vw;}
+span.badge.badge-info{font-size:0.8vw;}
+.col-md-4.studentSidebar {
+    font-size: 1vw;
+}
+.timetable.table thead tr th,.timetable.table tr td h6{font-size:0.8vw!important;}
+.timetable.table tr td,.timetable.table tr td div,.timetable.table tr td span{font-size:0.8vw!important;}
+.certificate {
+    min-height: 63vh;
+}
+.footer_text{text-align:center;}
+.certificate-top {
+    padding: 15px;
+}
+.col-md-3 .form-group #send{padding: 11px 20px;}
+.badge,h6,.h6{font-size:0.8vw;}
